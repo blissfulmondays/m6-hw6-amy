@@ -1,1 +1,1 @@
-# m6-hw6-amy
+# m6-hw6-west-amy
