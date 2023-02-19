@@ -1,1 +1,126 @@
+* {
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    border:0;
+}
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(images/Sea_salt\ copy.jpg);
+}
+
+h2 ~ img {
+    float: left;
+    margin: 0 19px 15px 0px;
+    box-shadow: 8px 12px 8px grey;
+}
+
+h1 {
+    display: flex;
+    font-size: 50px;
+    
+    padding: 40px;
+    background-color:rgb(238, 246, 238);
+    color:  rgb(84, 109, 84);
+
+}
+
+
+h2 {
+    font-size: 35px;
+    border-bottom: 2px solid rgb(237, 100, 100);
+    margin: 15px 0;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 30px;
+}
+
+.link {
+    color: rgb(237, 100, 100);
+    padding-left: 50px;
+    margin: 0 0 0 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    width: 60%;
+    text-align: right;
+    font-size: 25px;
+    flex-flow: column wrap;
+    
+}
+
+aside {
+    padding: 1% 2% 3%;
+    background-color: rgb(227, 243, 235);
+    text-align:center;
+    max-height: 155px;
+    margin: 25px;
+}
+
+#icons {
+    display: flex;
+}
+
+section a {
+    padding: 0 10px;
+}
+
+aside h2 {
+    font-family: cursive;
+    font-size: 27px;
+}
+
+
+main p {
+    padding: 20 0px;
+    text-indent: 25px;
+    text-align:justify;
+    margin:25px 0;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+main {
+    background-color: rgb(243, 243, 228);
+    padding: 0 15px 20px;
+    margin: 25px;
+}
+
+header {
+    border-bottom: 4px solid rgb(237, 100, 100);
+}
+
+header, footer {
+    background-color: rgb(217, 235, 217);
+    padding: 35px 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    border-top: 4px solid rgb(237, 100, 100);
+    font-size: 25px;
+    color: rgb(237, 100, 100);
+    padding: 40px 0;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+   
+
+ 
