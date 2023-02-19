@@ -18,10 +18,10 @@ h2 ~ img {
 }
 
 h1 {
-    display: flex;
-    font-size: 50px;
     
+    font-size: 50px;
     padding: 40px;
+    margin-left: 25px;
     background-color:rgb(238, 246, 238);
     color:  rgb(84, 109, 84);
 
@@ -43,8 +43,11 @@ h3 {
 
 .link {
     color: rgb(237, 100, 100);
-    padding-left: 50px;
-    margin: 0 0 0 50px;
+    padding: 6px 18px;
+    margin: 0 50px 0 100px;
+   
+    align-items: flex-end;
+    
 }
 
 nav a {
@@ -53,11 +56,12 @@ nav a {
     padding: 10px 20px;
     margin: 0 10px;
     width: 60%;
-    text-align: right;
+    align-items: flex-end;
     font-size: 25px;
     flex-flow: column wrap;
-    
+    background-color: rgb(235, 249, 244);
 }
+
 
 aside {
     padding: 1% 2% 3%;
@@ -98,11 +102,13 @@ main {
 
 header {
     border-bottom: 4px solid rgb(237, 100, 100);
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 header, footer {
     background-color: rgb(217, 235, 217);
-    padding: 35px 0;
+    padding-top: 50px;
 }
 
 footer {
@@ -117,8 +123,8 @@ footer {
 
 .container {
     display:flex;
-    justify-content: center;
-    max-width: 1200px;
+    justify-content: space-between;
+    max-width: 1400px;
     margin: 0 auto;
 }
    
